@@ -32,14 +32,19 @@ body {
     padding-bottom: 0px;
     margin-bottom: 0;
 }
-/*-------------------image background NOT WORKING */
+/*-------------------image background */
 
 .football-image {
-  background-image: url('images/Football.jpg') no-repeat center center;
+  background: url('../images/Football.jpg');
+  height: 300px;
+
+  /* Create the parallax scrolling effect */
   background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
   background-size: cover;
 }
-
+background-size: cover;
 
 .welcome { 
        padding: 10px;
@@ -125,14 +130,15 @@ footer {
     
 }
 
-.copy {
-    padding: 30px;
-}
 
 
 h5 {
     padding: 10px;
 
+}
+
+.copy {
+    margin: 0;
 }
 
 .social-club {
