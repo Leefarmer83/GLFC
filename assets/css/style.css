@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Martel:100,200,300,400,500,600,700');
+/*------------- colour /font*/
+body {
+
+    font-family: "Martel", sans-serif;
+}
+/*------------- Nav*/
+.bg-dark {
+    background-color: #000!important;
+}
+
+/*-------------------fixtures*/
+
+.jumbotron-fluid {
+
+    font-family: "Martel", sans-serif;
+    margin-bottom: none;
+    padding-top: 10px;
+    padding-bottom: 0px;
+    margin-bottom: 0;
+}
+
+
+/* ----------------------------------------Footer */
+
+footer {
+    background-color:#000;
+    color: #fafafa;
+    min-height: 120px;
+    margin: 0;
+    padding: 30px;
+}
+
+.sponsor {
+    padding: 50px;
+    
+}
+
+.copy {
+    padding: 30px;
+}
+
+
+h5 {
+    padding: 10px;
+
+}
+
+.social-club {
+    text-align: center;
+}
+
+.social-links {
+    padding-bottom: 15px;
+    text-align: center;
+}
+
+.social-links li a i {
+    width: 32px;
+    height: 32px;
+    padding: 12px 0;
+    border-radius: 50%;
+    font-size: 13px;
+    line-height: 7px;
+    text-align: center;
+    color: #fafafa;
+    background: #8f8f8f;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.social-links li a i:hover {
+    background:#ffa500;
+}
+
+#footer-details {
+    padding: 20px;
+}
+
+ .Socialfoot {
+    font-family: "Martel", sans-serif;
+    font-weight:400;
+    color: #fafafa;
+    text-align: center;
+}
