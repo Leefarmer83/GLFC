@@ -44,7 +44,7 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
 }
-background-size: cover;
+
 
 .welcome { 
        padding: 10px;
@@ -80,7 +80,6 @@ background-size: cover;
 p {
     font-family: "Martel", sans-serif;
     font-size: 14px;
-    
     padding: 10px;
     text-decoration: none !important;
 
@@ -88,10 +87,8 @@ p {
 
 /* ----------------------------------------profile */
 
-.profile {
-
-    
-    font-family: "Martel", sans-serif;
+.propad {
+    padding-top: 10px;
 }
 
 .pro-bar {
