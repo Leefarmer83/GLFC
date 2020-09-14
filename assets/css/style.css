@@ -1,9 +1,18 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Martel:100,200,300,400,500,600,700');
 /*------------- colour /font*/
 body {
-
+    background:#ffa500;
     font-family: "Martel", sans-serif;
+
+
 }
+/*------------- general*/
+
+.padding {
+    padding-top: 15px;
+}
+
+
 /*------------- Nav*/
 .bg-dark {
     background-color: #000!important;
@@ -14,14 +23,74 @@ body {
 .jumbotron-fluid {
 
     font-family: "Martel", sans-serif;
+    font-size: 50;
     margin-bottom: none;
     padding-top: 10px;
     padding-bottom: 0px;
     margin-bottom: 0;
 }
+/*-------------------image background NOT WORKING */
+
+.football-image {
+  background-image: url('images/Football.jpg') no-repeat center center;
+  background-attachment: fixed;
+  background-size: cover;
+}
 
 
+.welcome { 
+       padding: 10px;
+}
+
+
+
+
+/*-------------------How to find */
+
+.howtofind {
+    padding: 10px;
+    background-color: black;
+    color: white;
+}
+
+/*------------------- badges */
+
+.badge {
+    width: 260px;
+    margin: 20px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    align-items: center;
+    border-radius: 15px;
+    background-color: black;
+    
+    
+
+}
+
+p {
+    font-family: "Martel", sans-serif;
+    font-size: 14px;
+    color: white;
+    padding: 10px;
+    text-decoration: none !important;
+
+}
+
+/* ----------------------------------------profile */
+
+.profile {
+
+    
+    font-family: "Martel", sans-serif;
+}
+
+.pro-bar {
+    margin-bottom: 5px;
+    
+}
 /* ----------------------------------------Footer */
+
 
 footer {
     background-color:#000;
