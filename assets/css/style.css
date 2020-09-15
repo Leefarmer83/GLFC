@@ -111,6 +111,18 @@ p {
     padding-left: 15px;
     margin-top: 15px;
 }
+/*-------------------------------------------contact*/
+
+.com-image {
+  background: url('../images/com.jpg');
+  height: 300px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
 /* ----------------------------------------Footer */
 
