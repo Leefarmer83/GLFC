@@ -3,9 +3,9 @@
 body {
     background:#ffa500;
     font-family: "Merriweather", sans-serif;
+    }
 
 
-}
 /*------------- general*/
 
 .padding {
@@ -118,6 +118,8 @@ body {
 
 .welcome { 
        padding: 10px;
+           font-size: 50PX;
+
     
 }
 
@@ -165,6 +167,7 @@ p {
 
 .sevens {
     padding: 10px;
+
 }
 
 .submit {
@@ -181,6 +184,7 @@ p {
     padding-right: 15px;
     padding-left: 15px;
     margin-top: 15px;
+    
 }
 /*-------------------------------------------contact*/
 
