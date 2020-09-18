@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Merriweather:100,200,300,400,500,600,700|Montserrat:100,200,300,400,500,600,700');
+
 /*------------- colour /font*/
+
+
+
 body {
     background:#ffa500;
     font-family: "Merriweather", sans-serif;
@@ -186,6 +190,13 @@ p {
     margin-top: 15px;
     
 }
+
+/*---------------------------------------gallery*/
+
+.gallery {
+    background-color: white;
+}
+
 /*-------------------------------------------contact*/
 
 .com-image {
