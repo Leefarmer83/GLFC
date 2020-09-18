@@ -109,7 +109,7 @@ body {
 /*-------------------image background */
 
 .football-image {
-  background: url('../images/Football.jpg');
+  background: url('../images/football.jpg');
   height: 300px;
 
   /* Create the parallax scrolling effect */
