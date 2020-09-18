@@ -16,10 +16,11 @@ body {
     .marquee {
             height: 50px;
             overflow: hidden;
+            white-space:nowrap;
             position: relative;
             background: #ffffff;
             color: rgb(0, 0, 0);
-            border: 1px solid #4a4a4a;
+            border: 1px solid #000000;
         }
         
         .marquee p {
