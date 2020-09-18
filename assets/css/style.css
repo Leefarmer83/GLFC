@@ -124,6 +124,19 @@ p {
   background-size: cover;
 }
 
+.report-image {
+	background: url('../images/zreport.gif');
+	background-color: black;
+	height: 300px;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	width: 100%;
+	/* Create the parallax scrolling effect */
+	background-attachment: fixed;
+}
+
+
 /* ----------------------------------------Footer */
 
 
