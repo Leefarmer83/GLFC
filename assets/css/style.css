@@ -1,8 +1,8 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Martel:100,200,300,400,500,600,700');
+@import url('https://fonts.googleapis.com/css?family=Merriweather:100,200,300,400,500,600,700|Montserrat:100,200,300,400,500,600,700');
 /*------------- colour /font*/
 body {
     background:#ffa500;
-    font-family: "Martel", sans-serif;
+    font-family: "Merriweather", sans-serif;
 
 
 }
@@ -12,6 +12,63 @@ body {
     padding-top: 15px;
     padding-bottom: 15px;
 }
+
+    .marquee {
+            height: 50px;
+            overflow: hidden;
+            position: relative;
+            background: #ffffff;
+            color: rgb(0, 0, 0);
+            border: 1px solid #4a4a4a;
+        }
+        
+        .marquee p {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            margin: 0;
+            font-size: 20PX;
+            line-height: 50px;
+            text-align: center;
+            -moz-transform: translateX(100%);
+            -webkit-transform: translateX(100%);
+            transform: translateX(100%);
+            -moz-animation: scroll-left 2s linear infinite;
+            -webkit-animation: scroll-left 2s linear infinite;
+            animation: scroll-left 14s linear infinite;
+        }
+        
+        @-moz-keyframes scroll-left {
+            0% {
+                -moz-transform: translateX(100%);
+            }
+            100% {
+                -moz-transform: translateX(-100%);
+            }
+        }
+        
+        @-webkit-keyframes scroll-left {
+            0% {
+                -webkit-transform: translateX(100%);
+            }
+            100% {
+                -webkit-transform: translateX(-100%);
+            }
+        }
+        
+        @keyframes scroll-left {
+            0% {
+                -moz-transform: translateX(100%);
+                -webkit-transform: translateX(100%);
+                transform: translateX(100%);
+            }
+            100% {
+                -moz-transform: translateX(-100%);
+                -webkit-transform: translateX(-100%);
+                transform: translateX(-100%);
+            }
+        }
+
 
 
 
@@ -43,16 +100,7 @@ body {
  
 }
 
-/*-------------------fixtures*/
 
-.jumbotron-fluid {
-
-    font-family: "Martel", sans-serif;
-    font-size: 40px;
-    padding-top: 15px;
-    padding-bottom: 0px;
-    margin-bottom: 0;
-}
 /*-------------------image background */
 
 .football-image {
@@ -95,7 +143,7 @@ body {
 }
 
 p {
-    font-family: "Martel", sans-serif;
+    font-family: "Merriweather", sans-serif;
     font-size: 14px;
     padding: 10px;
     text-decoration: none !important;
@@ -220,7 +268,7 @@ h5 {
 }
 
  .Socialfoot {
-    font-family: "Martel", sans-serif;
+    font-family: "Merriweather", sans-serif;
     font-weight:400;
     color: #fafafa;
     text-align: center;
