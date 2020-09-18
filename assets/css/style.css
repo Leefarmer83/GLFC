@@ -16,6 +16,9 @@ body {
     padding-top: 15px;
     padding-bottom: 15px;
 }
+.pl {
+    padding-left: 20px;
+}
 
     .marquee {
             height: 50px;
