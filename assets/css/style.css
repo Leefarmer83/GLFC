@@ -2,215 +2,202 @@
 
 /*------------- colour /font*/
 
-
-
 body {
-    background:#ffa500;
-    font-family: "Merriweather", sans-serif;
-    }
+	background: #ffa500;
+	font-family: "Merriweather", sans-serif;
+}
 
 
 /*------------- general*/
 
 .padding {
-    padding-top: 15px;
-    padding-bottom: 15px;
+	padding-top: 15px;
+	padding-bottom: 15px;
 }
+
 .pl {
-    padding-left: 20px;
+	padding-left: 20px;
 }
 
-    .marquee {
-            height: 50px;
-            overflow: hidden;
-            white-space:nowrap;
-            position: relative;
-            background: #ffffff;
-            color: rgb(0, 0, 0);
-            border: 1px solid #000000;
-        }
-        
-        .marquee p {
-            position: absolute;
-            width: 100%;
-            height: 100%;
-            margin: 0;
-            font-size: 20PX;
-            line-height: 50px;
-            text-align: center;
-            -moz-transform: translateX(100%);
-            -webkit-transform: translateX(100%);
-            transform: translateX(100%);
-            -moz-animation: scroll-left 2s linear infinite;
-            -webkit-animation: scroll-left 2s linear infinite;
-            animation: scroll-left 14s linear infinite;
-        }
-        
-        @-moz-keyframes scroll-left {
-            0% {
-                -moz-transform: translateX(100%);
-            }
-            100% {
-                -moz-transform: translateX(-100%);
-            }
-        }
-        
-        @-webkit-keyframes scroll-left {
-            0% {
-                -webkit-transform: translateX(100%);
-            }
-            100% {
-                -webkit-transform: translateX(-100%);
-            }
-        }
-        
-        @keyframes scroll-left {
-            0% {
-                -moz-transform: translateX(100%);
-                -webkit-transform: translateX(100%);
-                transform: translateX(100%);
-            }
-            100% {
-                -moz-transform: translateX(-100%);
-                -webkit-transform: translateX(-100%);
-                transform: translateX(-100%);
-            }
-        }
+.marquee {
+	height: 50px;
+	overflow: hidden;
+	white-space: nowrap;
+	position: relative;
+	background: #ffffff;
+	color: rgb(0, 0, 0);
+	border: 1px solid #000000;
+}
 
+.marquee p {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	font-size: 20PX;
+	line-height: 50px;
+	text-align: center;
+	-moz-transform: translateX(100%);
+	-webkit-transform: translateX(100%);
+	transform: translateX(100%);
+	-moz-animation: scroll-left 2s linear infinite;
+	-webkit-animation: scroll-left 2s linear infinite;
+	animation: scroll-left 14s linear infinite;
+}
 
+@-moz-keyframes scroll-left {
+	0% {
+		-moz-transform: translateX(100%);
+	}
+	100% {
+		-moz-transform: translateX(-100%);
+	}
+}
 
+@-webkit-keyframes scroll-left {
+	0% {
+		-webkit-transform: translateX(100%);
+	}
+	100% {
+		-webkit-transform: translateX(-100%);
+	}
+}
+
+@keyframes scroll-left {
+	0% {
+		-moz-transform: translateX(100%);
+		-webkit-transform: translateX(100%);
+		transform: translateX(100%);
+	}
+	100% {
+		-moz-transform: translateX(-100%);
+		-webkit-transform: translateX(-100%);
+		transform: translateX(-100%);
+	}
+}
 
 
 /*------------- Nav*/
+
 .bg-dark {
-    background-color: #000!important;
+	background-color: #000!important;
 }
 
 
 /*----------------------------map*/
-.map-responsive{
- 
-    overflow:hidden; 
-    padding-bottom:56.25%; 
-    position:relative;
-    height:0;
 
+.map-responsive {
+	overflow: hidden;
+	padding-bottom: 56.25%;
+	position: relative;
+	height: 0;
 }
 
- 
- 
-.map-responsive iframe{
-    left:0;
-    top:0;
-    height:100%;
-    width:100%;
-    position:absolute;
- 
+.map-responsive iframe {
+	left: 0;
+	top: 0;
+	height: 100%;
+	width: 100%;
+	position: absolute;
 }
 
 
 /*-------------------image background */
 
 .football-image {
-  background: url('../images/football.jpg');
-  height: 300px;
-
-  /* Create the parallax scrolling effect */
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+	background: url('../images/football.jpg');
+	height: 300px;
+	/* Create the parallax scrolling effect */
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 
-
-.welcome { 
-       padding: 10px;
-           font-size: 50PX;
-
-    
+.welcome {
+	padding: 10px;
+	font-size: 50PX;
 }
 
 
 /*-------------------How to find */
 
 .howtofind {
-    padding: 10px;
-    background-color: black;
-    color: white;
+	padding: 10px;
+	background-color: black;
+	color: white;
 }
+
 
 /*------------------- badges */
 
 .badge {
-    width: 260px;
-    margin: 20px;
-    padding-top: 25px;
-    padding-bottom: 25px;
-    align-items: center;
-    border-radius: 15px;
-    background-color: black;
-
+	width: 260px;
+	margin: 20px;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	align-items: center;
+	border-radius: 15px;
+	background-color: black;
 }
 
 p {
-    font-family: "Merriweather", sans-serif;
-    font-size: 14px;
-    padding: 10px;
-    text-decoration: none !important;
-
+	font-family: "Merriweather", sans-serif;
+	font-size: 14px;
+	padding: 10px;
+	text-decoration: none !important;
 }
+
 
 /* ----------------------------------------profile */
 
 .propad {
-    padding-top: 10px;
+	padding-top: 10px;
 }
 
 .pro-bar {
-    margin-bottom: 5px;
+	margin-bottom: 5px;
 }
+
 
 /* ----------------------------------------7s */
 
 .sevens {
-    padding: 10px;
-
+	padding: 10px;
 }
 
 .submit {
-    margin-top: 10px;
+	margin-top: 10px;
 }
 
 .form {
-    padding: 10px;
+	padding: 10px;
 }
-
-
 
 .message {
-    padding-right: 15px;
-    padding-left: 15px;
-    margin-top: 15px;
-    
+	padding-right: 15px;
+	padding-left: 15px;
+	margin-top: 15px;
 }
+
 
 /*---------------------------------------gallery*/
 
 .gallery {
-    background-color: white;
+	background-color: white;
 }
+
 
 /*-------------------------------------------contact*/
 
 .com-image {
-  background: url('../images/com.jpg');
-  height: 300px;
-
-  /* Create the parallax scrolling effect */
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+	background: url('../images/com.jpg');
+	height: 300px;
+	/* Create the parallax scrolling effect */
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 
 .report-image {
@@ -228,67 +215,62 @@ p {
 
 /* ----------------------------------------Footer */
 
-
 footer {
-    background-color:#000;
-    color: #fafafa;
-    min-height: 120px;
-    margin: 0;
-    padding: 30px;
+	background-color: #000;
+	color: #fafafa;
+	min-height: 120px;
+	margin: 0;
+	padding: 30px;
 }
 
 .sponsor {
-    padding: 50px;
-    
+	padding: 50px;
 }
 
-
-
 h5 {
-    padding: 10px;
-
+	padding: 10px;
 }
 
 .copy {
-    margin: 0;
+	margin: 0;
 }
 
 .social-club {
-    text-align: center;
+	text-align: center;
 }
 
 .social-links {
-    padding-bottom: 15px;
-    text-align: center;
+	padding-bottom: 15px;
+	text-align: center;
 }
 
 .social-links li a i {
-    width: 32px;
-    height: 32px;
-    padding: 12px 0;
-    border-radius: 50%;
-    font-size: 13px;
-    line-height: 7px;
-    text-align: center;
-    color: #fafafa;
-    background: #8f8f8f;
-    transition: all 0.35s ease-in-out;
-    -moz-transition: all 0.35s ease-in-out;
-    -webkit-transition: all 0.35s ease-in-out;
-    -o-transition: all 0.35s ease-in-out;
+	width: 32px;
+	height: 32px;
+	padding: 12px 0;
+	border-radius: 50%;
+	font-size: 13px;
+	line-height: 7px;
+	text-align: center;
+	color: #fafafa;
+	background: #8f8f8f;
+	transition: all 0.35s ease-in-out;
+	-moz-transition: all 0.35s ease-in-out;
+	-webkit-transition: all 0.35s ease-in-out;
+	-o-transition: all 0.35s ease-in-out;
 }
 
 .social-links li a i:hover {
-    background:#ffa500;
+	background: #ffa500;
 }
 
 #footer-details {
-    padding: 20px;
+	padding: 20px;
 }
 
- .Socialfoot {
-    font-family: "Merriweather", sans-serif;
-    font-weight:400;
-    color: #fafafa;
-    text-align: center;
+.Socialfoot {
+	font-family: "Merriweather", sans-serif;
+	font-weight: 400;
+	color: #fafafa;
+	text-align: center;
 }
