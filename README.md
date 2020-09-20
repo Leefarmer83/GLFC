@@ -89,33 +89,35 @@ The colour and font were chosen by the managment team, this is inline with the c
 
 ## Features
 
-Every page has the navigation bar with the club crest on the left hand side and an H2 heading with the words "Great Linford Veterans Football Club" central under the Navbar. Every page also has the same footer, this consists of social media links, copyright information and the team sponsor, when clicking on the sponsor you are taken to the sponsor's website in a new page. 
+Every page has the navigation bar with the club crest on the left hand side and an H2 heading with the words "Great Linford Veterans Football Club" central under the Navbar. the nabar also fetures a hamburger icon when viewed on mobile devices. Every page also has the same footer, this consists of social media links, copyright information and the team sponsor, when clicking on the sponsor you are taken to the sponsor's website in a new page. 
 
-## Marquee scroll bar
+### Marquee scroll bar
 All pages have the Marquee scroller. This was the main ask of the club, to show the clubs next fixtures and any updates that happen. This feature is meant to be the first thing users see when accessing the website. The scroll bar is at the top of the body on every page.
 
-## Home page
-There is a fixed image of a football on the homepage, this is a design decision due to the lack content on the first page. Under the image, you will see the history of the club and a team photo (note - this is a placeholder image until the team submit their own), this is a traditional feature of football clubs websites. Another need for the club is to show opponents how to get to the ground,as it is not easy to find. To solve this problem you will see a how to find us section using Google Map in a frame and once clicked, users will be able to get directions from google maps.
+### Home page
+There is a fixed image of a football on the homepage, this is a design decision due to the lack content on the first page. Under the image, you will see the history of the club and a team photo (note - this is a placeholder image until the team submit their own), this is a traditional feature of football clubs websites, when viewing this page ona mobile the image moves below the history information. Another need for the club is to show opponents how to get to the ground,as it is not easy to find. To solve this problem you will see a how to find us section using Google Map in a frame and once clicked, users will be able to get directions from google maps.
 
 
-## Team page
-This will be the most used page at the club. First, you have two columns. Both link out to the official FA full-time websites where all fixtures, results and league tables are updated. The first column links directly to Great Linfords league table, the second, links directly to Great Linfords fixtures. The purpose of this link is for players and management to have a quick easy access to the league table and fixtures.
+### Team page
+This will be the most used page at the club. First, you have two columns. Both link out to the official FA full-time websites where all fixtures, results and league tables are updated. The first column links directly to Great Linfords league table, the second, links directly to Great Linfords fixtures. The purpose of this link is for players and management to have a quick easy access to the league table and fixtures. On large screens the columns show as two, reducing to one on mobile devices.
 
-Next is the main feature of the website, the player stats. All player stats from each and every game will be hosted here. This will keep team moral up and creates a welcomed competitive environment. The stats will be used at the end of the season to help choose individual performance awards.
+Next is the main feature of the website, the player stats. All player stats from each and every game will be hosted here using botstraps progress bar. This will keep team moral up and creates a welcomed competitive environment. The stats will be used at the end of the season to help choose individual performance awards. on large screens you will see two players per row, this reduces to one on moble devices.
 
 
-## Match Report
+### Match Report
 There is a fixed image on this page with the words Match report,the page will host all match reports for the season, the club nominates a player to write a match report and they have a competition for the best report of the season. Thre will be a match report submitted after every game.
 
-## Social
+### Social
 
-The first section on this page is to support the clubs luck 7's predictor game. The club selects 7 teams each week from the FA fixture list and challenges users to predict the winner of the fixtures, using the letters H (home), A (away) or D (draw). The site will show these fixtures each week for users to predict, charging them a pound for each prediction. The winner/s share the pot with the club, this game raises 60% of the clubs income each year. There is also a form where users can predict and submit, the data push is not currently setup and will be part of the features left to implement
-
-Next on the page is the gallery, here I used a template created by Ashley DW details on the code can be found here "http://ashleydw.github.io/lightbox/". The gallery also uses bootstraps grid, the first row will host four columns, three below and these reduce to one on mobile devices. User can click on the image to expand and there is a very useful arrow bar for the user to navigate to thenext image. The three picture on the last row are placeholer pictures, until I get more from the club.
-* Contact - The club committee member is located on this page with their individual titles, there is als a contact us form here for anyone wishing to contact the members.
+The first section on this page is to support the clubs luck 7's predictor game. The club selects 7 teams each week from the FA fixture list and challenges users to predict the winner of the fixtures, using the letters H (home), A (away) or D (draw). The site will show these fixtures each week for users to predict, charging them a pound for each prediction. The winner/s share the pot with the club, this game raises 60% of the clubs income each year. There is also a form where users can predict and submit, The form is not yet complete as i need to learn how to push data to email addresses, this will added to the features left to implement.
 
 
-## Features Left to Implement
+### Contact
+
+On this page you have a section on the club committee member, giving users information on who is who at the club. Each member is situated in a column and these columns reduce to one per row on mobile devices. The page hosts a contact us form, the form has placeholder tags to guid the user on what information is needed. The form is not yet complete as i need to learn how to push data to email addresses, this will added to the features left to implement.
+
+
+### Features Left to Implement
 
 * Social page - I need to learn how to get the form working for individuals to submit entries to the lucky 7's game.
 
