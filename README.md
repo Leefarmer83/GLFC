@@ -82,13 +82,13 @@ Fans can see how players are performing via the team page and match report page,
 [Social](https://github.com/Leefarmer83/GLFC/blob/master/assets/wire-frames/social.pdf)<br>
 [Contact](https://github.com/Leefarmer83/GLFC/blob/master/assets/wire-frames/contact.pdf)<br>
 
-
+### Colour and font
+The colour and font were chosen by the managment team, this is inline with the clubs team colors.
 - - - -
 
 ## Features
 
-* Header - All pages share the same Header - You have a new bar with the club logo, if the logo is clicked, it will take the users back to the home page. The navbar is responsive and will minimise into the burger icon when used on mobile devices.
-
+Every page has the navigation bar with the club crest on the left hand side and an H2 heading with the word "Great Linford Veterans Football Club" written under the Navbar. Every page also has the same footer, this consists of social media links, copyright information and the team sponsor, when clicking on the sponsor you are taken to a the sponsor's website in a new page. 
 * Footer - All pages share the same footer - First there are easy access icon links out of social media. And on the right hand side you will see to logo icon of the club sponsors, clicking on the icons will take you to the sponsors home page in a separate screen. 
 
 * Fixture scroller - All pages have the fixture scroller. This will show the clubs next fixtures and is designed to be eye catching.
@@ -102,6 +102,7 @@ Fans can see how players are performing via the team page and match report page,
 * Social - The club has a long standing game that makes the team money each week the first section of the page explains the game and helps the club share weekly updates, the page will also have a form where individuals can enter the game. The last section of the page is a gallery where the club shares past social activities as well as photos from match day games.
 
 * Contact - The club committee member is located on this page with their individual titles, there is als a contact us form here for anyone wishing to contact the members.
+
 
 ## Features Left to Implement
 
@@ -132,35 +133,3 @@ Balsamiq
 
 Font Awsome
 
-
-In particular, as part of this section we recommend that you provide a list of User Stories, with the following general structure:
-
-As a user type, I want to perform an action, so that I can achieve a goal.
-
-
-
-Another blue button should appear to click: *Open Browser*.
-
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
-
-A blue button should appear to click: *Make Public*,
-
-Another blue button should appear to click: *Open Browser*.
-
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the backend lessons.
-
-## Updates Since The Instructional Video
-
-We continually tweak and adjust this template to help give you the best experience. Here are the updates since the original video was made:
-
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
-
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
-
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
-
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
-
---------
-
-Happy coding!
