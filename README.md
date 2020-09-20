@@ -58,6 +58,7 @@ Fans can see how players are performing via the team page and match report page,
 
 **User Stories:**
 
+* As managment of the club, we need a platform to update players and managers on things happening at the club.<br>
 * As the secretary of the club, we need a platform for our fans to check how the team is performing from week to week.<br>
 * As the secretary of the club, I need a platform for the other team secretary to contact me.<br>
 * As the treasurer of the club, I need a website that will help us raise funds for the club.<br>
@@ -88,19 +89,29 @@ The colour and font were chosen by the managment team, this is inline with the c
 
 ## Features
 
-Every page has the navigation bar with the club crest on the left hand side and an H2 heading with the word "Great Linford Veterans Football Club" written under the Navbar. Every page also has the same footer, this consists of social media links, copyright information and the team sponsor, when clicking on the sponsor you are taken to a the sponsor's website in a new page. 
-* Footer - All pages share the same footer - First there are easy access icon links out of social media. And on the right hand side you will see to logo icon of the club sponsors, clicking on the icons will take you to the sponsors home page in a separate screen. 
+Every page has the navigation bar with the club crest on the left hand side and an H2 heading with the words "Great Linford Veterans Football Club" central under the Navbar. Every page also has the same footer, this consists of social media links, copyright information and the team sponsor, when clicking on the sponsor you are taken to the sponsor's website in a new page. 
 
-* Fixture scroller - All pages have the fixture scroller. This will show the clubs next fixtures and is designed to be eye catching.
+## Marquee scroll bar
+All pages have the Marquee scroller. This was the main ask of the club, to show the clubs next fixtures and any updates that happen. This feature is meant to be the first thing users see when accessing the website. The scroll bar is at the top of the body on every page.
 
-* Home page - You will see an image to break up the structure, then the club's history, followed by an interactive frame google map, this is great for users who can be directed to the club using google maps.
+## Home page
+There is a fixed image of a football on the homepage, this is a design decision due to the lack content on the first page. Under the image, you will see the history of the club and a team photo (note - this is a placeholder image until the team submit their own), this is a traditional feature of football clubs websites. Another need for the club is to show opponents how to get to the ground,as it is not easy to find. To solve this problem you will see a how to find us section using Google Map in a frame and once clicked, users will be able to get directions from google maps.
 
-* Team page - you will see two separate columns that link you to the FA official website, here you will find up to date league, fixtures and results, this is a great user experience for both Players and fans. Next you will see a list of all players in the team and their stats, these will change as the season continues and will create friendly competition within the team, it will also allow fans to see who is performing and put names to faces. 
 
-* Match Report -  This page hosts all match reports for the season, the club nominates a player to write a match report and have a competition for the best report of the season.
+## Team page
+This will be the most used page at the club. First, you have two columns. Both link out to the official FA full-time websites where all fixtures, results and league tables are updated. The first column links directly to Great Linfords league table, the second, links directly to Great Linfords fixtures. The purpose of this link is for players and management to have a quick easy access to the league table and fixtures.
 
-* Social - The club has a long standing game that makes the team money each week the first section of the page explains the game and helps the club share weekly updates, the page will also have a form where individuals can enter the game. The last section of the page is a gallery where the club shares past social activities as well as photos from match day games.
+Next is the main feature of the website, the player stats. All player stats from each and every game will be hosted here. This will keep team moral up and creates a welcomed competitive environment. The stats will be used at the end of the season to help choose individual performance awards.
 
+
+## Match Report
+There is a fixed image on this page with the words Match report,the page will host all match reports for the season, the club nominates a player to write a match report and they have a competition for the best report of the season. Thre will be a match report submitted after every game.
+
+## Social
+
+The first section on this page is to support the clubs luck 7's predictor game. The club selects 7 teams each week from the FA fixture list and challenges users to predict the winner of the fixtures, using the letters H (home), A (away) or D (draw). The site will show these fixtures each week for users to predict, charging them a pound for each prediction. The winner/s share the pot with the club, this game raises 60% of the clubs income each year. There is also a form where users can predict and submit, the data push is not currently setup and will be part of the features left to implement
+
+Next on the page is the gallery, here I used a template created by Ashley DW details on the code can be found here "http://ashleydw.github.io/lightbox/". The gallery also uses bootstraps grid, the first row will host four columns, three below and these reduce to one on mobile devices. User can click on the image to expand and there is a very useful arrow bar for the user to navigate to thenext image. The three picture on the last row are placeholer pictures, until I get more from the club.
 * Contact - The club committee member is located on this page with their individual titles, there is als a contact us form here for anyone wishing to contact the members.
 
 
@@ -116,6 +127,8 @@ Every page has the navigation bar with the club crest on the left hand side and 
 
 * up and coming social events, this will be added as the committee gain momentum.
 
+player profile will be added
+
 - - - -
 
 ## Technologies Used
@@ -127,9 +140,21 @@ Bootstrap
 
 Google Fonts
 
+Google Maps
+
 Github/Gitpod
 
 Balsamiq 
 
 Font Awsome
+
+linked Website
+
+[FA Full time] (https://fulltime.thefa.com/en)
+LTS (sponsor) - https://leadingtalentsolutions.com/
+facebook - https://en-gb.facebook.com/login/
+twitter - https://twitter.com/login?lang=en
+pinterest - https://www.pinterest.co.uk/login/
+instagram - https://www.instagram.com/accounts/login/?hl=en
+youtube - https://www.youtube.com/
 
