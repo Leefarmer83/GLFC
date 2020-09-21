@@ -119,44 +119,131 @@ On this page you have a section on the club committee member, giving users infor
 
 ### Features Left to Implement
 
-* Social page - I need to learn how to get the form working for individuals to submit entries to the lucky 7's game.
+* Team picture will replace the placeholder image on the home page.
 
-* Contact page - I need to get the contact us form working for anyone wishing to contact the committee members.
+* On the team page, all players will have a summary profile, the team are writing their own, once they are complete, they will be added.
 
-* I would like to find a clever way to update a field on the website, for club members to update.
+* Player pictures will aslo be updated with kit and player.
 
-* The team photo needs adding, currently there is a holding image, the team will send more pictures in the coming weeks. 
+* Social page - The form on this page only directs to the codeinstitute; once i learn how, it will be a fully functional form, sending predictions to the organisers webpage. 
 
-* up and coming social events, this will be added as the committee gain momentum.
+* Social page - Palpal payment will also be included on the form for the lucky 7's game for easy payment.
 
-player profile will be added
+* Gallery on the social page - will replace placeholder images once the team send new ones in.
+
+* Contact page - The form on this page only directs to the codeinstitute; once i learn how, it will be a fully functional form for anyone wishing to contact the committee members.
+
+* a form for management to be self sufficient, updating player stats, match report and the lucky 7's game.
 
 - - - -
 
 ## Technologies Used
 
-This project uses HTML and CSS languages.<br>
+* HTML5 is the markup language used for rendering the website.
+[HTML5](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5)
 
-Bootstrap
-(http://ashleydw.github.io/lightbox/)
+* CSS3 is the style sheet language used to style the HTML website.
+[CSS3](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3)
 
-Google Fonts
+* Bootstrap 4 Framework for the mobile responsiveness and grid layout of the website. 
+I also used Bootstrap's core CSS for most of the styling and layout, buttons and forms; its core JavaScript for the gallery and the hamburger button. this would not have been done without the hep of [Ashley White](http://ashleydw.github.io/lightbox/) who shares his lightbox code for others to use.
+[Bootstrap 4](https://getbootstrap.com/)
 
-Google Maps
 
-Github/Gitpod
+[Google Fonts](https://fonts.google.com/) - added in CSS
 
-Balsamiq 
+[Google Maps](https://www.google.co.uk/maps/) - Inbebed iframe
 
-Font Awsome
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4905.230122404648!2d-0.7539578221841976!3d52.06853246414941!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4877aa66476c89a7%3A0xbbf9e39f9be0b657!2sGreat%20Linford%20Tennis%20Club!5e0!3m2!1sen!2suk!4v1600717276950!5m2!1sen!2suk" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
 
-linked Website
+[Balsamiq] (https://balsamiq.com/) - used for wireframes
 
-[FA Full time] (https://fulltime.thefa.com/en)
-LTS (sponsor) - https://leadingtalentsolutions.com/
-facebook - https://en-gb.facebook.com/login/
-twitter - https://twitter.com/login?lang=en
-pinterest - https://www.pinterest.co.uk/login/
-instagram - https://www.instagram.com/accounts/login/?hl=en
-youtube - https://www.youtube.com/
+[Font Awsome](fontawesome.com) - used for social network iteams
+
+### Linked Website
+
+Websites that project website links out to.
+
+[FA Full time](https://fulltime.thefa.com/en) <br>
+[LTS (sponsor)](https://leadingtalentsolutions.com/) <br>
+[facebook](https://en-gb.facebook.com/login/)<br>
+[twitter](https://twitter.com/login?lang=en)<br>
+[pinterest](https://www.pinterest.co.uk/login/)<br>
+[instagram](https://www.instagram.com/accounts/login/?hl=en)<br>
+[youtube](https://www.youtube.com/)
+
+# Testing
+
+1. Used [HTML Validator](https://validator.w3.org/) to check the markup on each page. I had one **warning** for the fixed image on the indext.html, contact.html, report.html page : **Warning: Section lacks heading. Consider using h2-h6 elements to add identifying headings to all sections**. as this is a fixed image, I won't be giving it a heading. I also had the same **warning** on the team.html page for the images in the league and fixture section, these also will not have headings.
+
+
+2. Used [CSS3 Validator](https://jigsaw.w3.org/css-validator/) to check CSS3 for any errors. "Congratulations! No Error Found. This document validates as CSS level 3 + SVG !"
+
+3. I ran my page on [web.dev](https://web.dev/) and this is the [report](https://lighthouse-dot-webdotdevsite.appspot.com/lh/html?url=https://marie-o.github.io/first-milestone-project/).
+
+4. Contact form works as intended. 
+   1. Go to 'Contact Us' page.
+   2. If user does not type a name, user will get a reminder, "Please fill out this field".
+   3. Email needs to include @ sign and a domain. If user clicks submit without an @ sign, user will get a message, "Please include an '@' in the email address. 'user's input' is missing an '@'.
+   4. User also needs to enter a domain name for email address. If user forgets to type domain name after '@' sign, there will be a reminder saying, "Please enter a part following '@'. 'userinput@ is incomplete"
+   5. If user does not type anything at the text area field, user will also be prompted to type something. User will get a reminder, "Please fill out this field".
+   6. Once message is sent, there will be confirmation that message was sent. "Thank you for your message!"
+
+5. The website is responsive on majority of mobile devices. 
+
+6. There is a parallax effect on desktop that is disabled for mobile devices but the problem now is there appears to be two background images overlapping when you scroll up the page. I still haven't figured out how to fix it.
+   According to [this w3s article](https://www.w3schools.com/howto/howto_css_parallax.asp) the media query should disable the effect but the issue still persist.
+
+
+
+
+
+In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
+
+Whenever it is feasible, prefer to automate your tests, and if you've done so, provide a brief explanation of your approach, link to the test file(s) and explain how to run them.
+
+For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
+
+Contact form:
+Go to the "Contact Us" page
+Try to submit the empty form and verify that an error message about the required fields appears
+Try to submit the form with an invalid email address and verify that a relevant error message appears
+Try to submit the form with all inputs valid and verify that a success message appears.
+In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
+
+You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
+
+If this section grows too long, you may want to split it off into a separate file and link to it from here.
+
+Deployment
+This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
+
+In particular, you should provide all details of the differences between the deployed version and the development version, if any, including:
+
+Different values for environment variables (Heroku Config Vars)?
+Different configuration files?
+Separate git branch?
+In addition, if it is not obvious, you should also describe how to run your code locally.
+
+
+## Credit
+
+Adam Pritchard - Markdown Cheatsheet to help me with the README file
+https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
+
+Ashley White - Gallery lightbox copied code for the gallery section.
+http://ashleydw.github.io/lightbox/
+
+
+# Content
+The Gallery was copied from http://ashleydw.github.io/lightbox/
+
+
+
+# Media
+The photos used in this site were obtained from Great Linford Management.
+
+# Acknowledgements
+
+I used https://github.com/Code-Institute-Solutions/readme-template as a template for the README file
 
