@@ -174,12 +174,13 @@ Websites that project website links out to.
 
 # Testing
 
-1. Used [HTML Validator](https://validator.w3.org/) to check the markup on each page. I had one **warning** for the fixed image on the indext.html, contact.html, report.html page : **Warning: Section lacks heading. Consider using h2-h6 elements to add identifying headings to all sections**. as this is a fixed image, I won't be giving it a heading. I also had the same **warning** on the team.html page for the images in the league and fixture section, these also will not have headings.
+Used [HTML Validator](https://validator.w3.org/) to check the markup on each page. I had one **warning** for the fixed image on the indext.html, contact.html, report.html page : **Warning: Section lacks heading. Consider using h2-h6 elements to add identifying headings to all sections**. as this is a fixed image, I won't be giving it a heading. I also had the same **warning** on the team.html page for the images in the league and fixture section, these also will not have headings.
 
 
-2. Used [CSS3 Validator](https://jigsaw.w3.org/css-validator/) to check CSS3 for any errors. "Congratulations! No Error Found. This document validates as CSS level 3 + SVG !"
+Used [CSS3 Validator](https://jigsaw.w3.org/css-validator/) to check CSS3 for any errors. "Congratulations! No Error Found. This document validates as CSS level 3 + SVG !"
 
-3. I ran my page on [web.dev](https://web.dev/) and this is the [report](https://lighthouse-dot-webdotdevsite.appspot.com/lh/html?url=https://marie-o.github.io/first-milestone-project/).
+
+
 
 4. Contact form works as intended. 
    1. Go to 'Contact Us' page.
