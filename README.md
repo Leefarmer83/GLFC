@@ -147,7 +147,7 @@ On this page you have a section on the club committee member, giving users infor
 [CSS3](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3)
 
 * Bootstrap 4 Framework for the mobile responsiveness and grid layout of the website. 
-I also used Bootstrap's core CSS for most of the styling and layout, buttons and forms; its core JavaScript for the gallery and the hamburger button. this would not have been done without the hep of [Ashley White](http://ashleydw.github.io/lightbox/) who shares his lightbox code for others to use.
+I also used Bootstrap's core CSS for most of the styling and layout, buttons and forms; its core JavaScript for the gallery and the hamburger button. This would not have been done without the hep of [Ashley White](http://ashleydw.github.io/lightbox/) who shares his lightbox code for others to use.
 [Bootstrap 4](https://getbootstrap.com/)
 
 
@@ -155,9 +155,7 @@ I also used Bootstrap's core CSS for most of the styling and layout, buttons and
 
 [Google Maps](https://www.google.co.uk/maps/) - Inbebed iframe
 
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4905.230122404648!2d-0.7539578221841976!3d52.06853246414941!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4877aa66476c89a7%3A0xbbf9e39f9be0b657!2sGreat%20Linford%20Tennis%20Club!5e0!3m2!1sen!2suk!4v1600717276950!5m2!1sen!2suk" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
-
-[Balsamiq] (https://balsamiq.com/) - used for wireframes
+[Balsamiq](https://balsamiq.com/) - used for wireframes
 
 [Font Awsome](fontawesome.com) - used for social network items
 
@@ -169,13 +167,13 @@ Websites that project website links out to.
 
 [FA Full time](https://fulltime.thefa.com/en) <br>
 [LTS (sponsor)](https://leadingtalentsolutions.com/) <br>
-[facebook](https://en-gb.facebook.com/login/)<br>
-[twitter](https://twitter.com/login?lang=en)<br>
-[pinterest](https://www.pinterest.co.uk/login/)<br>
-[instagram](https://www.instagram.com/accounts/login/?hl=en)<br>
-[youtube](https://www.youtube.com/)
+[Facebook](https://en-gb.facebook.com/login/)<br>
+[Twitter](https://twitter.com/login?lang=en)<br>
+[Pinterest](https://www.pinterest.co.uk/login/)<br>
+[Instagram](https://www.instagram.com/accounts/login/?hl=en)<br>
+[Youtube](https://www.youtube.com/)
 
-# Testing
+## Testing
 
 Used [HTML Validator](https://validator.w3.org/) to check the markup on each page. All pages have the following message: Document checking completed. No errors or warnings to show.
 
@@ -257,7 +255,7 @@ Inspected/tested on both desktop and mobile device, using google chrome inspect 
 
 
 
-# Deployment
+## Deployment
 
 I published my website via GitHub, the below steps is how I did it:
 
@@ -283,14 +281,14 @@ http://ashleydw.github.io/lightbox/
 Anna Greaves - for GitHub documentation in the deployment section.
 
 
-# Content
+## Content
 The Gallery was copied from http://ashleydw.github.io/lightbox/ - Ashley White
 
 
-# Media
+## Media
 The photos used in this site were obtained from Great Linford Management.
 
-# Acknowledgements
+## Acknowledgements
 
 I used https://github.com/Code-Institute-Solutions/readme-template as a template for the README file
 
