@@ -158,7 +158,9 @@ I also used Bootstrap's core CSS for most of the styling and layout, buttons and
 
 [Balsamiq] (https://balsamiq.com/) - used for wireframes
 
-[Font Awsome](fontawesome.com) - used for social network iteams
+[Font Awsome](fontawesome.com) - used for social network items
+
+[HTML and CSS Formatter](https://www.freeformatter.com/) - used on CSS and HTML to beautify code
 
 ### Linked Website
 
@@ -174,58 +176,109 @@ Websites that project website links out to.
 
 # Testing
 
-Used [HTML Validator](https://validator.w3.org/) to check the markup on each page. I had one **warning** for the fixed image on the indext.html, contact.html, report.html page : **Warning: Section lacks heading. Consider using h2-h6 elements to add identifying headings to all sections**. as this is a fixed image, I won't be giving it a heading. I also had the same **warning** on the team.html page for the images in the league and fixture section, these also will not have headings.
-
+Used [HTML Validator](https://validator.w3.org/) to check the markup on each page. all pages have the following message: Document checking completed. No errors or warnings to show.
 
 Used [CSS3 Validator](https://jigsaw.w3.org/css-validator/) to check CSS3 for any errors. "Congratulations! No Error Found. This document validates as CSS level 3 + SVG !"
 
 
 
+1. Marquee scroll bar - clicked on every page to make sure the detail flows to the customrs liking, also checked on mobile devices. Next, changed the text to team news, the outcome was what was expected.
 
-4. Contact form works as intended. 
-   1. Go to 'Contact Us' page.
-   2. If user does not type a name, user will get a reminder, "Please fill out this field".
-   3. Email needs to include @ sign and a domain. If user clicks submit without an @ sign, user will get a message, "Please include an '@' in the email address. 'user's input' is missing an '@'.
-   4. User also needs to enter a domain name for email address. If user forgets to type domain name after '@' sign, there will be a reminder saying, "Please enter a part following '@'. 'userinput@ is incomplete"
-   5. If user does not type anything at the text area field, user will also be prompted to type something. User will get a reminder, "Please fill out this field".
-   6. Once message is sent, there will be confirmation that message was sent. "Thank you for your message!"
-
-5. The website is responsive on majority of mobile devices. 
-
-6. There is a parallax effect on desktop that is disabled for mobile devices but the problem now is there appears to be two background images overlapping when you scroll up the page. I still haven't figured out how to fix it.
-   According to [this w3s article](https://www.w3schools.com/howto/howto_css_parallax.asp) the media query should disable the effect but the issue still persist.
+* Issued found - The marquee scroll bar was tested throughout, and the marquee element was used at the start, after recieving errors on HTML validator, I realised that the element was depricated and was not to be used in HTML5
+Inspected/tested  on both desktop and moble device, looks good on both.
 
 
+2. How to find us - iframe Google map
+    1. Scrool down on indext.html to the how to find us map.
+    2. Click on directions, top left corner.
+    3. New tab opens, enter current location and hit directions.
+    4. enter your choice of travel then proceed with direction.
+
+Inspected/tested  on both desktop and moble device, looks good on both.
+
+* Issue found - when entering the width of the map, i originally hit 100%, this was not right, changed to 600 only per research.
+
+3. Club Sponsor
+    1. Scroll to the bottom on each page.
+    2. Click on the LTS icon
+    3. you are taken to the sponsors website in a seperate window.
+This works on each page.
+Inspected/tested  on both desktop and moble device, looks good on both.
+
+
+4. Veterans Leauge and Veterans Fixtures.
+    1. Go to team page
+    2. Clicked on both Veterans Leauge and Veterans Fixtures badges.
+    3. Each one takes the end user to their expected destination in a seperate window.
+
+Inspected/tested  on both desktop and moble device, looks good on both.
+
+
+5. Progress Bars on player stats.
+    1. Go to team page.
+    2. Visually the bars look great.
+    3. Updated/changed states on Mark Culley in the team.html file and saved.
+    4. Visually the change looks great and is what the customer asked for.
+
+Inspected/tested  on both desktop and moble device, looks good on both.
+
+6. Form on the Social page.
+    1. Go to social page.
+    2. click on submit.
+    3. Error shows for each of the required fields as intended.
+    4. Enter required fields and hit submit.
+    5. User taken to codeinstitute holding site as intended.
+
+This form will be completed once i learn how to send data to intended email address.
+Inspected/tested on both desktop and moble device, looks good on both.
+
+7. Gallery page
+    1. Go to social page.
+    2. Click on image in Gallery section.
+    Image pops up with toggle.
+    click on toggle for next image.
+    click off image to return back.
+
+* Issue found - Two images were not the same size and slighly moved some code, this was fixed by resizing the images.
+
+
+Inspected/tested on both desktop and moble device, looks good on both.
+
+8. Contact us form.
+    1. Go to contact page.
+    2. click on submit.
+    3. Error shows for each of the required fields as intended.
+    4. Enter required fields and hit submit.
+    5. User taken to codeinstitute holding site as intended.
+
+his form will be completed once i learn how to send data to intended email address.
+Inspected/tested on both desktop and moble device, looks good on both.
+
+
+9. The website has been tested on desktop and moble devices and is responsive on mobile devices. 
+
+10. Management was given my github link to the website to test. 
+    1. Asked me to remove the placeholder image with another they provided until they send team photo.
+    2. All users were asked to click on every page, link and icon on both mobile and desktop. Managment Didnt find any issues with the website and are very happy.
+    3. They are looking forward to the future improvements, this will come after the assesment.
 
 
 
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
 
-Whenever it is feasible, prefer to automate your tests, and if you've done so, provide a brief explanation of your approach, link to the test file(s) and explain how to run them.
+# Deployment
 
-For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
+I published my website via GitHub, the below steps is how i did it:
 
-Contact form:
-Go to the "Contact Us" page
-Try to submit the empty form and verify that an error message about the required fields appears
-Try to submit the form with an invalid email address and verify that a relevant error message appears
-Try to submit the form with all inputs valid and verify that a success message appears.
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
+1. Navigate to my Githubrepository: https://github.com/Leefarmer83/Great-Linford-Veterans-Football-Club
+2. Click on settings
+3. under GitHub pages i clicked master branch 
+4. I choose root as my folder
+5. clicked saved
+6. here is the url: https://leefarmer83.github.io/Great-Linford-Veterans-Football-Club/
 
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
+For more detailed informationon how to do the above please find instruction [here.](https://github.com/Leefarmer83/Great-Linford-Veterans-Football-Club/settings)
 
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
-
-Deployment
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
-
-In particular, you should provide all details of the differences between the deployed version and the development version, if any, including:
-
-Different values for environment variables (Heroku Config Vars)?
-Different configuration files?
-Separate git branch?
-In addition, if it is not obvious, you should also describe how to run your code locally.
-
+If you wish to clone my repository, information on how can be found [here.](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository)
 
 ## Credit
 
@@ -235,10 +288,11 @@ https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
 Ashley White - Gallery lightbox copied code for the gallery section.
 http://ashleydw.github.io/lightbox/
 
+Anna Greaves - for GitHub documentation in the deployment section.
+
 
 # Content
-The Gallery was copied from http://ashleydw.github.io/lightbox/
-
+The Gallery was copied from http://ashleydw.github.io/lightbox/ - Ashley White
 
 
 # Media
@@ -248,3 +302,10 @@ The photos used in this site were obtained from Great Linford Management.
 
 I used https://github.com/Code-Institute-Solutions/readme-template as a template for the README file
 
+Anna Greaves - for GitHub documentation in the deployment section. https://docs.github.com/en/github/working-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site and https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository
+
+Adam Pritchard - Markdown Cheatsheet to help me with the README file
+https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
+
+Ashley White - Gallery lightbox copied code for the gallery section.
+http://ashleydw.github.io/lightbox/
