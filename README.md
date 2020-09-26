@@ -1,5 +1,7 @@
 ![club logo](/assets/images/gflogo.png "Great Linford Veterans Football Team")
 - - - - 
+[View the live project here](https://leefarmer83.github.io/Great-Linford-Veterans-Football-Club/)
+
 # Great Linford Veterans Football Club
 
 A complete website for a veteran football team based in Great Linford village, Milton Keynes. The team play in a non professional Veterans league.
