@@ -19,6 +19,10 @@ body {
 	padding-left: 5%;
 }
 
+.allpadding {
+    padding: 4px;
+}
+
 .marquee {
 	height: 50px;
 	overflow: hidden;
@@ -34,8 +38,8 @@ body {
 	width: 100%;
 	height: 100%;
 	margin: 0;
-	font-size: 20PX;
-	line-height: 50px;
+	font-size: 130%;
+	line-height: 140%;
 	text-align: center;
 	-moz-transform: translateX(100%);
 	-webkit-transform: translateX(100%);
@@ -102,22 +106,17 @@ body {
 }
 
 
-/*-------------------image background */
+/*-------------------image background index.html */
 
 .football-image {
 	background: url('../images/football.jpg');
 	height: 300px;
-	/* Create the parallax scrolling effect */
 	background-attachment: fixed;
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
 }
 
-.welcome {
-	padding: 10px;
-	font-size: 50PX;
-}
 
 
 /*-------------------How to find */
@@ -142,42 +141,36 @@ body {
 }
 
 p {
-	font-family: "Merriweather", sans-serif;
-	font-size: 14px;
 	padding: 10px;
-	text-decoration: none !important;
 }
 
 
 /* ----------------------------------------profile */
 
 .propad {
-	padding-top: 10px;
+	padding-top: 2%;
 }
 
 .pro-bar {
-	margin-bottom: 5px;
+	margin-bottom: 2%;
 }
 
 
 /* ----------------------------------------7s */
 
-.sevens {
-	padding: 10px;
-}
 
 .submit {
-	margin-top: 10px;
+	margin-top: 2%;
 }
 
 .form {
-	padding: 10px;
+	padding: 2%;
 }
 
 .message {
-	padding-right: 15px;
-	padding-left: 15px;
-	margin-top: 15px;
+	padding-right: 2%;
+	padding-left: 2%;
+	margin-top: 2%;
 }
 
 
@@ -193,12 +186,13 @@ p {
 .com-image {
 	background: url('../images/com.jpg');
 	height: 300px;
-	/* Create the parallax scrolling effect */
 	background-attachment: fixed;
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
 }
+
+/*-------------------------------------------Match Report*/
 
 .report-image {
 	background: url('../images/zreport.gif');
@@ -208,7 +202,6 @@ p {
 	background-position: center;
 	background-repeat: no-repeat;
 	width: 100%;
-	/* Create the parallax scrolling effect */
 	background-attachment: fixed;
 }
 
