@@ -11,12 +11,12 @@ body {
 /*------------- general*/
 
 .padding {
-	padding-top: 15px;
-	padding-bottom: 15px;
+	padding-top: 2%;
+	padding-bottom: 2%;
 }
 
 .pl {
-	padding-left: 20px;
+	padding-left: 5%;
 }
 
 .marquee {
