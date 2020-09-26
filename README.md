@@ -59,13 +59,14 @@ Fans can see how players are performing via the team page and match report page,
 **User Stories:**
 
 * As management of the club, we need a platform to update players and managers on things happening at the club.<br>
+* As the secretary of the cub, I need a website were i can share our spondors logo, linking out to their website.<br>
 * As the secretary of the club, we need a platform for our fans to check how the team is performing from week to week.<br>
 * As the secretary of the club, I need a platform for the other team secretary to contact me.<br>
 * As the treasurer of the club, I need a website that will help us raise funds for the club.<br>
 * I am on the social team and would like a platform to showcase all the events we have done.<br>
 * As the manager of the club, I really need a website that will hold all our fixture information so players can visit and find directions on where to meet.<br>
 * As the manager of the club, I want a website to hold stats on how players have done in games, this will help establish awards at the end of the season.<br>
-* As the manager of the club, I want a website to hold match reports FOR OUR competition.<br>
+* As the manager of the club, I want a website to hold match reports.<br>
 * As the manager of the club, I want a website that can give directions to our opponents as our ground is not easy to find.<br>
 * As a fan of the club, I'd like to see a web page that hosts all fixtures, results and league standings.<br>
 * As a fan of the club I would like somewhere to find the address of away games.<br>
@@ -73,6 +74,7 @@ Fans can see how players are performing via the team page and match report page,
 * As a player of the club, it would be fun to have information on Man of the matches I have received over the season.<br>
 * As a player of the club, it would be fun to have information on assists I have created over the season.<br>
 * As a player of the club, I would like a website that gives me all the information on up and coming fixtures.<br>
+
 
 
 
@@ -92,31 +94,67 @@ The colour and font were chosen by the management team, this is in line with the
 
 Every page has the navigation bar with the club crest on the left hand side and an H2 heading with the words "Great Linford Veterans Football Club" central under the Navbar. The nabar also features a hamburger icon when viewed on mobile devices. Every page also has the same footer, this consists of social media links, copyright information and the team sponsor, when clicking on the sponsor you are taken to the sponsor's website in a new page. 
 
+**Related user story addressed:**
+
+* As the secretary of the cub, I need a website were i can share our spondors logo, linking out to their website.
+
 ### Marquee scroll bar
 All pages have the Marquee scroller. This was the main ask of the club, to show the clubs next fixtures and any updates that happen. This feature is meant to be the first thing users see when accessing the website. The scroll bar is at the top of the body on every page.
+
+**Related user story addressed:**
+
+* As management of the club, we need a platform to update players and managers on things happening at the club.
+* As the manager of the club, I really need a website that will hold all our fixture information so players can visit and find directions on where to meet.
+* As a fan of the club I would like somewhere to find the address of away games.
+* As a player of the club, I would like a website that gives me all the information on up and coming fixtures.
 
 ### Home page
 There is a fixed image of a football on the homepage, this is a design decision due to the lack content on the first page. Below the image, you will see the history of the club and a team photo (note - this is a placeholder image until the team submit their own), this is a traditional feature of football clubs websites, when viewing this page on mobile the image moves below the history information. Another need for the club is to show opponents how to get to the ground,as it is not easy to find. To solve this problem you will see a how to find us section using Google Map in a frame and once clicked, users will be able to get directions from google maps.
 
+**Related user story addressed:**
+
+* As the manager of the club, I want a website that can give directions to our opponents as our ground is not easy to find.
 
 ### Team page
 This will be the most used page at the club. First, you have two columns. Both link out to the official FA full-time websites where all fixtures, results and league tables are updated. The first column links directly to Great Linfords league table, the second, links directly to Great Linfords fixtures. The purpose of this link is for players and management to have a quick easy access to the league table and fixtures. On large screens the columns show as two, reducing to one on mobile devices.
 
 Next is the main feature of the website, the player stats. All player stats from each and every game will be hosted here using bootstrap progress bar. This will keep team moral up and creates a welcomed competitive environment. The stats will be used at the end of the season to help choose individual performance awards. On large screens you will see two players per row, this reduces to one on mobile devices.
 
+**Related user story addressed:**
+
+* As the manager of the club, I really need a website that will hold all our fixture information so players can visit and find directions on where to meet.
+* As the manager of the club, I want a website to hold stats on how players have done in games, this will help establish awards at the end of the season.
+* As a fan of the club, I'd like to see a web page that hosts all fixtures, results and league standings.
+* As a fan of the club I would like somewhere to find the address of away games.
+* As a player of the club, it would be fun to have information on the goals I have scored over the season.
+* As a player of the club, it would be fun to have information on Man of the matches I have received over the season.
+* As a player of the club, it would be fun to have information on assists I have created over the season.
+* As a player of the club, I would like a website that gives me all the information on up and coming fixtures.
 
 ### Match Report
 There is a fixed image on this page with the words Match report,the page will host all match reports for the season, the club nominates a player to write a match report and they have a competition for the best report of the season. There will be a match report submitted after every game.
+
+**Related user story addressed:**
+
+* As the secretary of the club, we need a platform for our fans to check how the team is performing from week to week.<br> 
+* As the manager of the club, I want a website to hold match reports.
 
 ### Social
 
 The first section on this page is to support the clubs luck 7's predictor game. The club selects 7 teams each week from the FA fixture list and challenges users to predict the winner of the fixtures, using the letters H (home), A (away) or D (draw). The site will show these fixtures each week for users to predict, charging them a pound for each prediction. The winner/s share the pot with the club, this game raises 60% of the club's income each year. There is also a form where users can predict and submit, The form is not yet complete as I need to learn how to push data to email addresses, this will be added to the features left to implement.
 
+**Related user story addressed:**
+
+* As the treasurer of the club, I need a website that will help us raise funds for the club.
+* I am on the social team and would like a platform to showcase all the events we have done.
 
 ### Contact
 
 On this page you have a section on the club committee member, giving users information on who is who at the club. Each member is situated in a column and these columns reduce to one per row on mobile devices. The page hosts a contact us form, the form has placeholder tags to guide the user on what information is needed. The form is not yet complete as I need to learn how to push data to email addresses, this will be added to the features left to implement.
 
+**Related user story addressed:**
+
+* As the secretary of the club, I need a platform for the other team secretary to contact me.<br>
 
 ### Features Left to Implement
 
@@ -160,6 +198,8 @@ I also used Bootstrap's core CSS for most of the styling and layout, buttons and
 [Font Awsome](fontawesome.com) - used for social network items
 
 [HTML and CSS Formatter](https://www.freeformatter.com/) - used on CSS and HTML to beautify code
+
+[Hover](https://ianlunn.github.io/Hover/) - For social liks in the footer
 
 ### Linked Website
 
