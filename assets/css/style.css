@@ -19,7 +19,6 @@ body {
 	padding-left: 5%;
 }
 
-
 .marquee {
 	height: 50px;
 	overflow: hidden;
@@ -115,7 +114,6 @@ body {
 }
 
 
-
 /*-------------------How to find */
 
 .howtofind {
@@ -155,7 +153,6 @@ p {
 
 /* ----------------------------------------7s */
 
-
 .submit {
 	margin-top: 2%;
 }
@@ -188,6 +185,7 @@ p {
 	background-repeat: no-repeat;
 	background-size: cover;
 }
+
 
 /*-------------------------------------------Match Report*/
 
